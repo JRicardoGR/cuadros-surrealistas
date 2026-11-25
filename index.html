@@ -1,15 +1,144 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cuadros Surrealistas</title>
-    <link rel="stylesheet" href="style.css"> 
-
+    <title>ONIRIA | Galería de Arte Surrealista</title>
+    <!-- Fuentes de Google Fonts para contraste editorial y moderno -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Space+Grotesk:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Cuadros Surrealistas</h1>
-    <h2>Explorando el mundo de lo surreal</h2>
+
+    <!-- Fondo atmosférico con orbes flotantes y grano visual -->
+    <div class="ambient-bg">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+    </div>
+
+    <!-- Navegación Minimalista -->
+    <header class="navbar">
+        <a href="#" class="logo">ONIRIA<span>.art</span></a>
+        <nav>
+            <a href="#obras">Obras</a>
+            <a href="#manifiesto">Manifiesto</a>
+            <a href="#contacto">Adquirir</a>
+        </nav>
+    </header>
+
+    <!-- Sección Hero Impactante -->
+    <section class="hero">
+        <div class="hero-content">
+            <p class="subtitle">COLECCIÓN EXCLUSIVA 2026</p>
+            <h1 class="glitch-title" data-text="DONDE LA LÓGICA SE DERRITE">DONDE LA LÓGICA SE DERRITE</h1>
+            <p class="hero-desc">Piezas únicas pintadas al óleo y técnicas mixtas que desafían las leyes de la física y habitan en el subconsciente.</p>
+            <a href="#obras" class="btn-explore">Explorar el Subconsciente</a>
+        </div>
         
+        <!-- Elemento visual abstracto y orgánico en CSS -->
+        <div class="hero-visual">
+            <div class="portal-frame">
+                <img src="https://images.unsplash.com/photo-1541701494587-cb58502866ab?auto=format&fit=crop&w=800&q=80" alt="Arte Abstracto Surrealista">
+            </div>
+        </div>
+    </section>
+
+    <!-- Marquesina Infinita (Solo CSS) -->
+    <div class="marquee-container">
+        <div class="marquee-content">
+            <span>• PIEZAS ÚNICAS • ENVÍOS INTERNACIONALES • CERTIFICADO DE AUTENTICIDAD • ARTE DEL SUBCONSCIENTE • ÓLEO SOBRE LIENZO </span>
+            <span>• PIEZAS ÚNICAS • ENVÍOS INTERNACIONALES • CERTIFICADO DE AUTENTICIDAD • ARTE DEL SUBCONSCIENTE • ÓLEO SOBRE LIENZO </span>
+        </div>
+    </div>
+
+    <!-- Galería de Obras -->
+    <section id="obras" class="gallery-section">
+        <div class="section-header">
+            <h2>ARCHIVO ONÍRICO</h2>
+            <p>Pasa el cursor sobre cada lienzo para revelar su dimensión oculta.</p>
+        </div>
+
+        <div class="gallery-grid">
+            <!-- Obra 1 -->
+            <article class="art-card">
+                <div class="art-image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?auto=format&fit=crop&w=800&q=80" alt="El Susurro del Tiempo">
+                    <div class="art-overlay">
+                        <span class="dimensions">120 x 90 cm • Óleo</span>
+                    </div>
+                </div>
+                <div class="art-info">
+                    <h3>El Susurro del Tiempo</h3>
+                    <p>Una exploración sobre la memoria fragmentada y los relojes internos.</p>
+                    <a href="https://wa.me/51999999999?text=Hola,%20me%20interesa%20consultar%20por%20la%20obra%20'El%20Susurro%20del%20Tiempo'" target="_blank" class="btn-inquire">Consultar pieza →</a>
+                </div>
+            </article>
+
+            <!-- Obra 2 -->
+            <article class="art-card featured">
+                <div class="art-image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1549490349-8643362247b5?auto=format&fit=crop&w=800&q=80" alt="Gravedad Inversa">
+                    <div class="art-overlay">
+                        <span class="dimensions">150 x 100 cm • Acrílico y Pan de Plata</span>
+                    </div>
+                </div>
+                <div class="art-info">
+                    <h3>Gravedad Inversa</h3>
+                    <p>Arquitectura imposible suspendida en un horizonte de hielo líquido.</p>
+                    <a href="https://wa.me/51999999999?text=Hola,%20me%20interesa%20consultar%20por%20la%20obra%20'Gravedad%20Inversa'" target="_blank" class="btn-inquire">Consultar pieza →</a>
+                </div>
+            </article>
+
+            <!-- Obra 3 -->
+            <article class="art-card">
+                <div class="art-image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80" alt="Metamorfosis Silenciosa">
+                    <div class="art-overlay">
+                        <span class="dimensions">80 x 80 cm • Técnica Mixta</span>
+                    </div>
+                </div>
+                <div class="art-info">
+                    <h3>Metamorfosis Silenciosa</h3>
+                    <p>El instante exacto en que la materia sólida se convierte en pensamiento.</p>
+                    <a href="https://wa.me/51999999999?text=Hola,%20me%20interesa%20consultar%20por%20la%20obra%20'Metamorfosis%20Silenciosa'" target="_blank" class="btn-inquire">Consultar pieza →</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Sección Manifiesto -->
+    <section id="manifiesto" class="manifesto-section">
+        <div class="manifesto-box">
+            <h2>EL MANIFIESTO</h2>
+            <p>"No pintamos lo que vemos, pintamos lo que se esconde detrás de los párpados cerrados. Cada cuadro es una ventana abierta hacia una realidad paralela, creada exclusivamente para coleccionistas que buscan romper con lo ordinario."</p>
+            <div class="signature">— Curaduría Oniria</div>
+        </div>
+    </section>
+
+    <!-- Sección Contacto Directo -->
+    <footer id="contacto" class="footer-section">
+        <h2>¿UNA OBRA TE HA LLAMADO?</h2>
+        <p>Todas nuestras piezas son originales únicos. Escríbenos directamente para conocer disponibilidad, precios y envíos privados.</p>
+        
+        <!-- Reemplaza el número 51999999999 por tu número real con código de país -->
+        <a href="https://wa.me/51938183506?text=Hola,%20vengo%20de%20la%20web%20ONIRIA%20y%20quisiera%20información%20sobre%20los%20cuadros%20disponibles." target="_blank" class="whatsapp-cta">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.1.824z"/>
+            </svg>
+            Hablar por WhatsApp
+        </a>
+        <p class="copyright">© 2026 ONIRIA Galería Surrealista. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Botón Flotante de WhatsApp con efecto de pulso -->
+    <a href="https://wa.me/51938183506?text=Hola,%20quisiera%20información%20sobre%20los%20cuadros%20surrealistas." target="_blank" class="whatsapp-float" aria-label="Contactar por WhatsApp">
+        <svg viewBox="0 0 24 24" width="32" height="32" fill="currentColor">
+            <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.1.824z"/>
+        </svg>
+    </a>
+
 </body>
 </html>
